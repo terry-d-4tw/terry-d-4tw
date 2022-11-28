@@ -1,9 +1,6 @@
 ### Hi there 👋
-```C
-int main {
-  // I’m currently working on HolyC
-}
-
+```bash
+  echo I’m currently working on HolyC
 ```
 <!--
 **terry-d-4tw/terry-d-4tw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
