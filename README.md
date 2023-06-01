@@ -3,7 +3,7 @@
 # Action Plan (WIP / Draft)
 
 - [x] Create a `hidden` repo on GitHub that has the same name as the username/ownername with basic README
-- [ ] Set up some elementary testing via GitHub Actions (e.g. assert 'I love Hackathons and Test Driving' is in README)
+- [x] Set up some elementary testing via GitHub Actions (e.g. assert 'I love Hackathons and Test Driving' is in README)
 - [ ] Deploy to GitHub Pages and set up GitHub to auto-deploy on code change
 - [ ] Set up elementary JAMStack / Jekyll framework
 - [ ] experiment with Jekyll themes
