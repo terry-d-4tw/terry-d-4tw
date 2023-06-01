@@ -26,12 +26,35 @@ fi
 ```
 
 ## Set up elementary JAMStack / Jekyll framework
+
 just create a
 ```yaml
 # _config.yml
 
 theme: minima # minima is one of Jekyll's default themes
 ```
+
+if you want to be able to develop locally and have nice things that come out of the box with Ruby's Jekyll installer (i.e. default 404 page and some extra configs) do:
+
+```sh
+cd ../
+jekyll new terry-d-4tw --force # you need force since you are in a non-empty directory
+cd terry-d-4tw
+# ensure to add `webrick` gem to your gemfile, otherwise you will get an error when running `bundle exec jekyll serve`
+bundle add webrick
+```
+
+now we can run it locally via
+
+```sh
+bundle exec jekyll serve -P 4001
+```
+
+## experiment with Jekyll themes
+
+Out of the box GitHub supports [these themes](https://pages.github.com/themes/) - they are pretty basic, and in my view minima looks the best, but yet there is a lot to be desired.
+
+Alternative is to use [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes), which is more involved, but hey, that's what we want, right?
 
 
 # Judging Criteria
