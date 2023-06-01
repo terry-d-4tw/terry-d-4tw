@@ -4,8 +4,8 @@
 
 - [x] Create a `hidden` repo on GitHub that has the same name as the username/ownername with basic README
 - [x] Set up some elementary testing via GitHub Actions (e.g. assert 'I love Hackathons and Test Driving' is in README)
-- [ ] Deploy to GitHub Pages and set up GitHub to auto-deploy on code change
-- [ ] Set up elementary JAMStack / Jekyll framework
+- [x] Deploy to GitHub Pages and set up GitHub to auto-deploy on code change
+- [x] Set up elementary JAMStack / Jekyll framework
 - [ ] experiment with Jekyll themes
 - [ ] explore some cool JavaScript to spice up JAMStack if theme does not suffice
 - [ ] explore some APIs to connect to JAM Stack
@@ -13,6 +13,26 @@
 - [ ] OPTIONAL - enhance basic testing
 - [ ] OPTIONAL - explore OpenTelemetry
 - [ ] OPTIONAL - explore Data / Telemetry visualisation - m.b. explore Grafana
+
+# Logs
+
+## Set up some elementary testing via GitHub Actions (e.g. assert 'I love Hackathons and Test Driving' is in README)
+
+```sh
+if curl -s -N 'https://github.com/terry-d-4tw/' | grep -q "I love Ruby too"; then
+ echo "it worked! 🎉"; exit 0; else
+ echo "it did not work 😔"; exit 1
+fi
+```
+
+## Set up elementary JAMStack / Jekyll framework
+just create a
+```yaml
+# _config.yml
+
+theme: minima # minima is one of Jekyll's default themes
+```
+
 
 # Judging Criteria
 
