@@ -59,15 +59,15 @@ Alternative is to use [Minimal Mistakes theme](https://github.com/mmistakes/mini
 
 # Judging Criteria
 
- ## Technology
-    How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go "Wow"?
- ## Design
-    Did the team put thought into the user experience? How well designed is the interface?
- ## Learning
-    Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before?
- ## Adherence to Theme
-    Does the hack adhere to the event's theme? Does it implement that theme fully or just partially?
- ## Originality
-    Has this project been done before at hackathons in the past? How creative is their project in solving the problem at hand?
- ## Completion
-    Does the hack work? Did the team achieve everything they wanted?
+## Technology
+   How technically impressive was the hack? Was the technical problem the team tackled difficult? Did it use a particularly clever technique or did it use many different components? Did the technology involved make you go "Wow"?
+## Design
+   Did the team put thought into the user experience? How well designed is the interface?
+## Learning
+   Did the team stretch themselves? Did they try to learn something new? What kind of projects have they worked on before?
+## Adherence to Theme
+   Does the hack adhere to the event's theme? Does it implement that theme fully or just partially?
+## Originality
+   Has this project been done before at hackathons in the past? How creative is their project in solving the problem at hand?
+## Completion
+   Does the hack work? Did the team achieve everything they wanted?
