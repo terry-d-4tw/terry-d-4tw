@@ -6,7 +6,8 @@
 - [x] Set up some elementary testing via GitHub Actions (e.g. assert 'I love Hackathons and Test Driving' is in README)
 - [x] Deploy to GitHub Pages and set up GitHub to auto-deploy on code change
 - [x] Set up elementary JAMStack / Jekyll framework
-- [ ] experiment with Jekyll themes
+- [x] experiment with Jekyll themes
+- [ ] experiment with Bridgetown (Jekyll alternative)
 - [ ] explore some cool JavaScript to spice up JAMStack if theme does not suffice
 - [ ] explore some APIs to connect to JAM Stack
 - [ ] OPTIONAL - enhance CI/CD pipeline
@@ -70,6 +71,13 @@ Cool plugings/snippets/scripts:
 ## Discovered alternative to Jekyll - Bridgetown (a fork of Jekyll with cool Ruby featureso)
 
 refer [this](https://www.bridgetownrb.com) or some BridgeTown default README at the bottom
+
+GitHub Pages will need some regigging to support Bridgetown, but it is doable, see [this](https://www.bridgetownrb.com/docs/github-pages)
+or
+<https://andrewm.codes/deploy-bridgetown-to-github-pages/>
+also!
+
+remove original deploy from `main` if you used GitHub Jekylls deploy. I went to setting unpublish website, changed `deploy from branch` to `GH Action` and re-run BridgeTown build/deploy action
 # Judging Criteria
 
 ## Technology

@@ -31,6 +31,6 @@ const outputFolder = "output"
  * @typedef { import("esbuild").BuildOptions } BuildOptions
  * @type {BuildOptions}
  */
-const esbuildOptions = {}
+const esbuildOptions = { publicPath: "/terry-d-4tw/_bridgetown/static" }
 
 build(outputFolder, esbuildOptions)
