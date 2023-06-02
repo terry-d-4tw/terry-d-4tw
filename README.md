@@ -56,7 +56,16 @@ Out of the box GitHub supports [these themes](https://pages.github.com/themes/) 
 
 Alternative is to use [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes), which is more involved, but hey, that's what we want, right?
 
+Cool plugings/snippets/scripts:
+{% raw %}
+```sh
+{% include_relative README.md %} # include a file from the same repo
 
+# add table of conents
+* toc
+{:toc}
+```
+{% endraw %}
 # Judging Criteria
 
 ## Technology

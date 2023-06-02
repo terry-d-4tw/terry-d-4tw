@@ -4,5 +4,7 @@
 
 layout: home
 ---
+* toc
+{:toc}
 
 {% include_relative README.md %}
